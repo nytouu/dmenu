@@ -1,0 +1,12 @@
+
+config.def.h.orig
+config.def.h.rej
+dmenu
+dmenu-5.0.tar.gz
+dmenu.c.orig
+dmenu.c.rej
+dmenu.o
+drw.o
+stest
+stest.o
+util.o
