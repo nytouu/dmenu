@@ -10,6 +10,4 @@ drw.o
 stest
 stest.o
 util.o
-dmenu_run
-dmenu_path
 dmenu.1.orig

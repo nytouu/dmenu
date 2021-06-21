@@ -1,0 +1,3 @@
+#!/bin/sh
+dmenu_path | dmenu -x 6 -y 6 -z 1908 -i "$@" | ${SHELL:-"/bin/sh"} &
+# dmenu_path | dmenu -i "$@" | ${SHELL:-"/bin/sh"} &
