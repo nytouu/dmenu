@@ -7,11 +7,11 @@ static const unsigned int alpha = OPAQUE;
 static const unsigned int border_width = 0;
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
-static const char *fonts[] = {
+static char *fonts[] = {
 	"SFMono Nerd Font:style=Regular:size=12"
 };
 static const char *prompt      = " ";      /* -p  option; prompt to the left of input field */
-static const char *colors[SchemeLast][2] = {
+static char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#c9c9c9", "#1a1b26" },
 	[SchemeSel] = { "#1a1b26", "#7aa2f7" },
