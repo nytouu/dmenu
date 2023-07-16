@@ -8,7 +8,8 @@ static const unsigned int border_width = 0;
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static char *fonts[] = {
-	"SFMono Nerd Font:style=Regular:size=12"
+	"SFMono Nerd Font:style=Medium:size=12",
+	"Symbols Nerd Font:style=Medium:size=12"
 };
 static const char *prompt      = " ";      /* -p  option; prompt to the left of input field */
 static char *colors[SchemeLast][2] = {
@@ -34,7 +35,7 @@ static const unsigned int alphas[SchemeLast][2] = {
 static unsigned int lines      = 0;
 /* -h option; minimum height of a menu line */
 static unsigned int lineheight = 42;
-static unsigned int min_lineheight = 42;
+static unsigned int min_lineheight = 38;
 
 /*
  * Characters not considered part of a word while deleting words
