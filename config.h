@@ -9,7 +9,7 @@ static const unsigned int border_width = 0;
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static char *fonts[] = {
 	"SFMono Nerd Font:style=Medium:size=12",
-	"Symbols Nerd Font:style=Medium:size=12"
+	"Symbols Nerd Font Mono:style=Medium:size=12"
 };
 static const char *prompt      = " ";      /* -p  option; prompt to the left of input field */
 static char *colors[SchemeLast][2] = {
